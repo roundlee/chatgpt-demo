@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       clientHeight: "",
-      text:'qqq',
+      text:'',
     };
   },
   methods: {
