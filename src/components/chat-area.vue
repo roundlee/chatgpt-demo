@@ -4,7 +4,7 @@
       <MdEdit ref="mdEditRef"/>
     </div>
     <div class="search">
-      <a-input v-model:value="text"  class="input-box" @pressEnter="handleInput"/>
+      <a-input v-model:value="text"  class="input-box" @pressEnter="handleInput" placeholder="Ask any technical question..."/>
     </div>
   </div>
 </template>
